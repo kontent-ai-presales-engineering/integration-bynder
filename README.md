@@ -10,10 +10,6 @@
 [![Discord][discord-shield]](https://discord.gg/SKCxwPtevJ)
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/kai-logo-hor-neg-rgb.svg">
-  <img alt="Kontent.ai logo for dark/light scheme." src="docs/kai-logo-hor-pos-rgb.svg" width="300">
-</picture>
 <image src="docs/bynder_logo.png"
 alt="commercetools logo" width="300">
 </p>
@@ -58,7 +54,7 @@ The integration is created with [Create React App](https://create-react-app.dev/
 
 You don't need to do anything special inside of your Bynder account in order to access the data through the custom element. Instead, you'll be prompted to login into your Bynder account to access your asset library (like seen in the demo animation above).
 
-This element has been created by simply adding the official **Compact View** by Bynder. You can learn more about this integration component in [its official documentation](https://support.bynder.com/hc/en-us/articles/360014369640-Compact-View-overview-page) on Bynder's website.
+This element has been created by simply adding the official **Universal Compact View** by Bynder (formerly known as Compact View). You can learn more about this integration component in [its official documentation](https://support.bynder.com/hc/en-us/articles/360013932739-Understanding-Universal-Compact-View-UCV) on Bynder's website, or check out the [developer documentation](https://developers.bynder.com/universal-compact-view) for implementation details.
 
 > **⚠ WARNING: You have to have a Bynder account/credentials in order to use this extension**
 
@@ -76,7 +72,7 @@ You will need to add the custom element to a content type filling in the hosted 
 
 All of the parameters are optional.
 If you don't provide bynder URL, the selector will prompt for it while logging in.
-The derivative parameters can be used to alter which of the defined image derivatives will be used by the selector preview and output. More details in [the official documentation](https://support.bynder.com/hc/en-us/articles/360013871360#UUID-efe6ac1b-c1aa-62e5-f086-45cafead8b51).
+The derivative parameters can be used to alter which of the defined image derivatives will be used by the selector preview and output. More details in [the official documentation](https://support.bynder.com/hc/en-us/articles/360013931139-Understanding-Image-Derivatives).
 
 ## What is Saved
 
@@ -126,7 +122,7 @@ Example output:
 
 # DAT
 
-If you are using Bynder's **Dynamic Asset Transformation**, your public DAT URL will be included in the `files` property under `transformBaseUrl` (see example output above). You can use this URL to generate derivates you want on the fly. To learn more about DAT visit [Bynder's documentation](https://support.bynder.com/hc/en-us/articles/360018559260-Dynamic-Asset-Transformations-DAT).
+If you are using Bynder's **Dynamic Asset Transformation**, your public DAT URL will be included in the `files` property under `transformBaseUrl` (see example output above). You can use this URL to generate derivates you want on the fly. To learn more about DAT visit [Bynder's documentation](https://support.bynder.com/hc/en-us/sections/17242495878418-Dynamic-Asset-Transformation-DAT).
 
 ## Contributors
 
