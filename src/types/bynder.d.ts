@@ -22,7 +22,7 @@ declare const BynderCompactView: Readonly<{
       onSuccess?: (assets: ReadonlyArray<BynderImage>) => void;
       portal?: Readonly<{ url?: string; editable?: boolean }>;
       mode?: "MultiSelect" | "SingleSelect" | "SingleSelectFile";
-      assetTypes?: ReadonlyArray<"image" | "video" | "document" | "audio">;
+      assetTypes?: ReadonlyArray<"IMAGE" | "VIDEO" | "DOCUMENT" | "AUDIO">;
     }>,
   ) => void;
 }>;

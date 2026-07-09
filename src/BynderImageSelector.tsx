@@ -107,7 +107,7 @@ const openBynderPicker = (config: Config, onSuccess: (assets: ReadonlyArray<Bynd
   BynderCompactView.open({
     portal: config.bynderUrl ? { url: config.bynderUrl } : undefined,
     mode: "MultiSelect",
-    assetTypes: ["image"],
+    assetTypes: ["IMAGE"],
     onSuccess,
   });
 };
